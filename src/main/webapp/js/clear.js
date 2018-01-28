@@ -1,0 +1,10 @@
+$('#1').click(function(){
+    $('#selectTypes').empty();
+});
+$('#2').click(function(){
+    $('#selectZoos').empty();
+});
+$('#3').click(function(){
+    $('#selectZoos').empty();
+    $('#seeanimals').empty();
+});

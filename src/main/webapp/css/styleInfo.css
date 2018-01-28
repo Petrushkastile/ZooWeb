@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-image: url("http://img12.nnm2.com/2/2/c/c/b/6d15c627761e5cb0fb57b6fd4c9.jpg");
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+}
+.logo{
+    background: #000 ;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.graficlogo{
+    padding: 5px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+nav{
+    margin: auto;
+    width: 800px;
+    height: 100px;
+}
+.topnav{
+    background-color: transparent;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.topnav a{
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+}
+.topnav a:hover{
+    border-bottom: 2px solid black;
+
+}
+.topnav .icon{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .topnav a:not(:first-child){
+        display: none;
+    }
+    .topnav a.icon{
+        float: right;
+        margin-top: -17px;
+        display: block;
+        color: black;
+    }
+    nav{
+        width: 100%;
+        height: 100px;
+    }
+    .topnav.responsive{
+        position: relative;
+    }
+    .topnav.responsive a.icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    table{
+        margin: auto;
+        border:0px;
+        width: 90%;
+    }
+    td{
+        text-align: center;
+    }
+    #PageFooter2
+    {
+        background-color: transparent;
+        background-image: url("/images/Footer.png");
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    head{
+        padding: 10px;
+    }
+
+   }
